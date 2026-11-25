@@ -1,0 +1,21 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "author": {
+    "name": "Drinbol"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start:ow-electron": "ow-electron .",
+    "build:ow-electron": "ow-electron-builder --publish=never"
+  },
+  "build": {
+    "productName": "ow-electron-sample-app"
+  },
+  "dependencies": {
+    "@overwolf/ow-electron": "^22.3.3",
+    "@overwolf/ow-electron-builder": "^23.6.2"
+  }
+}
